@@ -17,7 +17,7 @@ if(FLB_WINDOWS_DEFAULTS)
   if (NOT FLB_LIBYAML_DIR)
     set(FLB_CONFIG_YAML         No)
   endif ()
-  set(FLB_WASM                  No)
+  set(FLB_WASM                  Yes)
   set(FLB_WAMRC                 No)
 
   # INPUT plugins
